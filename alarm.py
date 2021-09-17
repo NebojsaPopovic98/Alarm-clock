@@ -13,7 +13,7 @@ def alarm(set_alarm_timer):
         print(now)
         if now == set_alarm_timer:
             print('Time to wake up!')
-            winsound.PlaySound("sound.wav", winsound.SND_ASYNC)
+            winsound.PlaySound("sound.wav", winsound.SND_NOSTOP)
             break
 
 def actual_time():
